@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PWA App</title>
+
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('pwabuilder-sw.js');
+    }
+  </script>
+</head>
+<body>
+  <h1>PWA Working ✅</h1>
+  <p>Install option aayega browser me</p>
+</body>
+</html>
